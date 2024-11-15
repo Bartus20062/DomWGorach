@@ -28,13 +28,14 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:padding="0dp"
-        android:layout_marginTop="0dp">
+        android:layout_marginTop="0dp"
+        android:background="#008080">
 
         <Button
             android:id="@+id/like"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:background="#008080"
+            android:backgroundTint="#008080"
             android:text="POLUB"
             android:textColor="@color/white"
             android:layout_weight="1"/>
@@ -43,7 +44,7 @@
             android:id="@+id/usun"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:background="#008080"
+            android:backgroundTint="#008080"
             android:text="USUŃ"
             android:textColor="@color/white"
             android:layout_weight="1" />
@@ -52,7 +53,7 @@
             android:id="@+id/zapisz"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:background="#008080"
+            android:backgroundTint="#008080"
             android:text="ZAPISZ"
             android:textColor="@color/white"
             android:layout_weight="1"/>
